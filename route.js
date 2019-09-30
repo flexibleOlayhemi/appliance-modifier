@@ -17,8 +17,7 @@ router.get('/', (req, res) => {
 
 router.post('/:text', (req, res) => {
     const receivedText = req.params.text.toLowerCase();
-    console.log('Ode bi');
-
+    
     let newCommands;
     if (receivedText.includes('on')) {
         newCommands = applianceModifier(receivedText, 1);
