@@ -1,2 +1,2 @@
-# innhubhai-api
-Simple API for hardware communication for Inn Hub Hardware and Artificial Intelligence club
+# appliance-modifier
+API interface between the text-to-speech application and hardware
